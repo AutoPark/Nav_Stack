@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner
+# Build directory: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build
+# 
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(_ctest_base_local_planner_gtest_base_local_planner_utest "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/groovy/share/catkin/cmake/test/run_tests.py" "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/test_results/base_local_planner/gtest-base_local_planner_utest.xml" "--return-code" "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/lib/base_local_planner/base_local_planner_utest --gtest_output=xml:/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/test_results/base_local_planner/gtest-base_local_planner_utest.xml")
+ADD_TEST(_ctest_base_local_planner_gtest_line_iterator "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/groovy/share/catkin/cmake/test/run_tests.py" "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/test_results/base_local_planner/gtest-line_iterator.xml" "--return-code" "/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/lib/base_local_planner/line_iterator --gtest_output=xml:/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/test_results/base_local_planner/gtest-line_iterator.xml")
+SUBDIRS(gtest)

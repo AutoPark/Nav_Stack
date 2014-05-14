@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/setup.sh

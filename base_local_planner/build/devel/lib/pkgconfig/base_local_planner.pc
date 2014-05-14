@@ -1,0 +1,8 @@
+prefix=/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel
+
+Name: base_local_planner
+Description: Description of base_local_planner
+Version: 1.10.3
+Cflags: -I/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/include -I/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/include -I/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/include
+Libs: -L/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/devel/lib -lbase_local_planner -ltrajectory_planner_ros
+Requires: roslib roscpp dynamic_reconfigure message_generation tf pluginlib costmap_2d nav_core

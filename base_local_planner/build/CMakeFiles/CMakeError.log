@@ -1,0 +1,1197 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1448443482/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1448443482.dir/build.make CMakeFiles/cmTryCompileExec1448443482.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1448443482.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1448443482.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1448443482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1448443482.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1448443482.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1448443482 -rdynamic 
+CMakeFiles/cmTryCompileExec1448443482.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1448443482] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1448443482/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1125556239/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1125556239.dir/build.make CMakeFiles/cmTryCompileExec1125556239.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1125556239.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1125556239.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1125556239
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1125556239.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1125556239.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1125556239 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1125556239.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1125556239] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1125556239/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3332070825/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3332070825.dir/build.make CMakeFiles/cmTryCompileExec3332070825.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3332070825.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3332070825.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3332070825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3332070825.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3332070825.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3332070825 -rdynamic 
+CMakeFiles/cmTryCompileExec3332070825.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3332070825] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3332070825/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1617189881/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1617189881.dir/build.make CMakeFiles/cmTryCompileExec1617189881.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1617189881.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1617189881.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1617189881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1617189881.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1617189881.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1617189881 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1617189881.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1617189881] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1617189881/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4248764333/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4248764333.dir/build.make CMakeFiles/cmTryCompileExec4248764333.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4248764333.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4248764333.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4248764333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4248764333.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec4248764333.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4248764333 -rdynamic 
+CMakeFiles/cmTryCompileExec4248764333.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec4248764333] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec4248764333/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec580917069/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec580917069.dir/build.make CMakeFiles/cmTryCompileExec580917069.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec580917069.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec580917069.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec580917069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec580917069.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec580917069.dir/CheckFunctionExists.c.o  -o cmTryCompileExec580917069 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec580917069.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec580917069] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec580917069/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3492811659/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3492811659.dir/build.make CMakeFiles/cmTryCompileExec3492811659.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3492811659.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3492811659.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3492811659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3492811659.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3492811659.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3492811659 -rdynamic 
+CMakeFiles/cmTryCompileExec3492811659.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3492811659] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3492811659/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3605547855/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3605547855.dir/build.make CMakeFiles/cmTryCompileExec3605547855.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3605547855.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3605547855.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3605547855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3605547855.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3605547855.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3605547855 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3605547855.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3605547855] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3605547855/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3973601635/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3973601635.dir/build.make CMakeFiles/cmTryCompileExec3973601635.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3973601635.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3973601635.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3973601635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3973601635.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3973601635.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3973601635 -rdynamic 
+CMakeFiles/cmTryCompileExec3973601635.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec3973601635] Error 1
+make[2]: *** [cmTryCompileExec3973601635/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec417183469/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec417183469.dir/build.make CMakeFiles/cmTryCompileExec417183469.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec417183469.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec417183469.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec417183469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec417183469.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec417183469.dir/CheckFunctionExists.c.o  -o cmTryCompileExec417183469 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec417183469.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec417183469] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec417183469/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3850572705/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3850572705.dir/build.make CMakeFiles/cmTryCompileExec3850572705.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3850572705.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3850572705.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3850572705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850572705.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3850572705.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3850572705 -rdynamic 
+CMakeFiles/cmTryCompileExec3850572705.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3850572705] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3850572705/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3039658241/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3039658241.dir/build.make CMakeFiles/cmTryCompileExec3039658241.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3039658241.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3039658241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3039658241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3039658241.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3039658241.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3039658241 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3039658241.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3039658241] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3039658241/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1660712936/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1660712936.dir/build.make CMakeFiles/cmTryCompileExec1660712936.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1660712936.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1660712936.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1660712936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1660712936.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1660712936.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1660712936 -rdynamic 
+CMakeFiles/cmTryCompileExec1660712936.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec1660712936] Error 1
+make[2]: *** [cmTryCompileExec1660712936/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3621349994/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3621349994.dir/build.make CMakeFiles/cmTryCompileExec3621349994.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3621349994.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3621349994.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3621349994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3621349994.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3621349994.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3621349994 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3621349994.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3621349994] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3621349994/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec667551980/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec667551980.dir/build.make CMakeFiles/cmTryCompileExec667551980.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec667551980.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec667551980.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec667551980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec667551980.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec667551980.dir/CheckSymbolExists.c.o  -o cmTryCompileExec667551980 -rdynamic 
+CMakeFiles/cmTryCompileExec667551980.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec667551980] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec667551980/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1064678384/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1064678384.dir/build.make CMakeFiles/cmTryCompileExec1064678384.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1064678384.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1064678384.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1064678384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1064678384.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1064678384.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1064678384 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1064678384.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1064678384] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1064678384/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1413732638/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1413732638.dir/build.make CMakeFiles/cmTryCompileExec1413732638.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1413732638.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1413732638.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1413732638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1413732638.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1413732638.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1413732638 -rdynamic 
+CMakeFiles/cmTryCompileExec1413732638.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1413732638] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1413732638/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1799790065/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1799790065.dir/build.make CMakeFiles/cmTryCompileExec1799790065.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1799790065.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1799790065.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1799790065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1799790065.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1799790065.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1799790065 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1799790065.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1799790065] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1799790065/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1206223981/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1206223981.dir/build.make CMakeFiles/cmTryCompileExec1206223981.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1206223981.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1206223981.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1206223981
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1206223981.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1206223981.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1206223981 -rdynamic 
+CMakeFiles/cmTryCompileExec1206223981.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1206223981] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1206223981/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec358764787/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec358764787.dir/build.make CMakeFiles/cmTryCompileExec358764787.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec358764787.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec358764787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec358764787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec358764787.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec358764787.dir/CheckFunctionExists.c.o  -o cmTryCompileExec358764787 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec358764787.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec358764787] Error 1
+make[2]: *** [cmTryCompileExec358764787/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3502744287/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3502744287.dir/build.make CMakeFiles/cmTryCompileExec3502744287.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3502744287.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3502744287.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3502744287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3502744287.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3502744287.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3502744287 -rdynamic 
+CMakeFiles/cmTryCompileExec3502744287.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3502744287] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3502744287/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3495148038/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3495148038.dir/build.make CMakeFiles/cmTryCompileExec3495148038.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3495148038.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3495148038.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3495148038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3495148038.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3495148038.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3495148038 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3495148038.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3495148038] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3495148038/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3839419111/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3839419111.dir/build.make CMakeFiles/cmTryCompileExec3839419111.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3839419111.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3839419111.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3839419111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3839419111.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3839419111.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3839419111 -rdynamic 
+CMakeFiles/cmTryCompileExec3839419111.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3839419111] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3839419111/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec752479380/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec752479380.dir/build.make CMakeFiles/cmTryCompileExec752479380.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec752479380.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec752479380.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec752479380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec752479380.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec752479380.dir/CheckFunctionExists.c.o  -o cmTryCompileExec752479380 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec752479380.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec752479380] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec752479380/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3289978556/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3289978556.dir/build.make CMakeFiles/cmTryCompileExec3289978556.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3289978556.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3289978556.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3289978556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3289978556.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3289978556.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3289978556 -rdynamic 
+CMakeFiles/cmTryCompileExec3289978556.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec3289978556] Error 1
+make[2]: *** [cmTryCompileExec3289978556/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec61088031/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec61088031.dir/build.make CMakeFiles/cmTryCompileExec61088031.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec61088031.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec61088031.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec61088031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec61088031.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec61088031.dir/CheckFunctionExists.c.o  -o cmTryCompileExec61088031 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec61088031.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec61088031] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec61088031/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3933988037/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3933988037.dir/build.make CMakeFiles/cmTryCompileExec3933988037.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3933988037.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3933988037.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3933988037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3933988037.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3933988037.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3933988037 -rdynamic 
+CMakeFiles/cmTryCompileExec3933988037.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3933988037] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3933988037/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1473576405/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1473576405.dir/build.make CMakeFiles/cmTryCompileExec1473576405.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1473576405.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1473576405.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1473576405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1473576405.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1473576405.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1473576405 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1473576405.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1473576405] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1473576405/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1136111573/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1136111573.dir/build.make CMakeFiles/cmTryCompileExec1136111573.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1136111573.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1136111573.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1136111573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1136111573.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1136111573.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1136111573 -rdynamic 
+CMakeFiles/cmTryCompileExec1136111573.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1136111573] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1136111573/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2267605770/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2267605770.dir/build.make CMakeFiles/cmTryCompileExec2267605770.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2267605770.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2267605770.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2267605770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2267605770.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2267605770.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2267605770 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec2267605770.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec2267605770] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2267605770/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3811832674/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3811832674.dir/build.make CMakeFiles/cmTryCompileExec3811832674.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3811832674.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3811832674.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3811832674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3811832674.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3811832674.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3811832674 -rdynamic 
+CMakeFiles/cmTryCompileExec3811832674.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec3811832674] Error 1
+make[2]: *** [cmTryCompileExec3811832674/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec54898638/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec54898638.dir/build.make CMakeFiles/cmTryCompileExec54898638.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec54898638.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec54898638.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec54898638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec54898638.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec54898638.dir/CheckFunctionExists.c.o  -o cmTryCompileExec54898638 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec54898638.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec54898638] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec54898638/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3568447317/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3568447317.dir/build.make CMakeFiles/cmTryCompileExec3568447317.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3568447317.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3568447317.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3568447317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3568447317.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3568447317.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3568447317 -rdynamic 
+CMakeFiles/cmTryCompileExec3568447317.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[3]: *** [cmTryCompileExec3568447317] Error 1
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3568447317/fast] Error 2
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3645482747/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3645482747.dir/build.make CMakeFiles/cmTryCompileExec3645482747.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3645482747.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3645482747.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3645482747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3645482747.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3645482747.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3645482747 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec3645482747.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3645482747] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3645482747/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1907371868/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1907371868.dir/build.make CMakeFiles/cmTryCompileExec1907371868.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1907371868.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1907371868.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1907371868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1907371868.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1907371868.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1907371868 -rdynamic 
+CMakeFiles/cmTryCompileExec1907371868.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1907371868] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1907371868/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1754817806/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1754817806.dir/build.make CMakeFiles/cmTryCompileExec1754817806.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1754817806.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1754817806.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1754817806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1754817806.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1754817806.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1754817806 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1754817806.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1754817806] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1754817806/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2588873867/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2588873867.dir/build.make CMakeFiles/cmTryCompileExec2588873867.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2588873867.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2588873867.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2588873867
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2588873867.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec2588873867.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2588873867 -rdynamic 
+CMakeFiles/cmTryCompileExec2588873867.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec2588873867] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2588873867/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4847138/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4847138.dir/build.make CMakeFiles/cmTryCompileExec4847138.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4847138.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4847138.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4847138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4847138.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4847138.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4847138 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec4847138.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec4847138] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec4847138/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1174408971/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1174408971.dir/build.make CMakeFiles/cmTryCompileExec1174408971.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1174408971.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1174408971.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1174408971
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1174408971.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1174408971.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1174408971 -rdynamic 
+CMakeFiles/cmTryCompileExec1174408971.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1174408971] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1174408971/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2457443893/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2457443893.dir/build.make CMakeFiles/cmTryCompileExec2457443893.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2457443893.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2457443893.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2457443893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2457443893.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2457443893.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2457443893 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec2457443893.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec2457443893] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec2457443893/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3748535073/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3748535073.dir/build.make CMakeFiles/cmTryCompileExec3748535073.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3748535073.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3748535073.dir/CheckSymbolExists.c.o   -c /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3748535073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3748535073.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3748535073.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3748535073 -rdynamic 
+CMakeFiles/cmTryCompileExec3748535073.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec3748535073] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3748535073/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+File /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1173483475/fast"
+make[2]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1173483475.dir/build.make CMakeFiles/cmTryCompileExec1173483475.dir/build
+make[3]: Entering directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1173483475.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1173483475.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1173483475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1173483475.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1173483475.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1173483475 -rdynamic -lpthreads 
+/usr/bin/ld: error: cannot find -lpthreads
+CMakeFiles/cmTryCompileExec1173483475.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+make[3]: *** [cmTryCompileExec1173483475] Error 1
+make[3]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec1173483475/fast] Error 2
+make[2]: Leaving directory `/home/naman/catkin_ws/src/navigation-groovy-devel-catkinized/base_local_planner/build/CMakeFiles/CMakeTmp'
+
+
